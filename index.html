@@ -8,6 +8,97 @@
     <title>My Bank</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="login-section">
+      <div class="container">
+        <div class="">
+          <h2 class="text-center">Welcome to My Bank</h2>
+        </div>
+        <div id="login-area">
+          <h5 class="mb-3">Login</h5>
+          <input
+            class="form-control mb-3"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <input
+            class="form-control my-3"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+          <button
+            id="login"
+            class="bg-success border-0 py-2 px-3 mt-3 rounded-3"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+
+        <div id="transaction-area" class="mt-5">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="deposite part">
+                <h4>Deposite</h4>
+                <h2 id="deposite-money-el">$00</h2>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="withdraw part">
+                <h4>Withdraw</h4>
+                <h2 id="withdraw-money-el">$00</h2>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="balance part">
+                <h4>Balance</h4>
+                <h2 id="balance-money-el">$1200</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <div class="deposite-card card-info">
+                <h4>Deposite</h4>
+                <input
+                  class="form-control my-4"
+                  type="text"
+                  id="input-deposite"
+                  placeholder="$ amount you want to deposite"
+                />
+                <button
+                  class="bg-success border-0 py-2 px-3 mt-3 rounded-3"
+                  id="input-deposite-btn"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="withdraw-card card-info">
+                <h4>Withdraw</h4>
+                <input
+                  class="form-control my-4"
+                  type="text"
+                  id="input-withdraw"
+                  placeholder="$ amount you want to withdraw"
+                />
+                <button
+                  class="bg-success border-0 py-2 px-3 mt-3 rounded-3"
+                  id="input-withdraw-btn"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./interactivity.js"></script>
   </body>
 </html>

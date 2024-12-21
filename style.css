@@ -1,0 +1,33 @@
+.container {
+  padding: 100px;
+}
+
+.login-area {
+  box-shadow: 8px 8px 10px lightgray;
+  padding: 30px;
+}
+
+#transaction-area {
+  display: none;
+}
+
+.deposite {
+  background-color: slateblue;
+}
+.withdraw {
+  background-color: lightsalmon;
+}
+.balance {
+  background-color: orange;
+}
+
+.part {
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.card-info {
+  padding: 20px;
+  box-shadow: 8px 8px 10px lightgray;
+}
